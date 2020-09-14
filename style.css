@@ -1,0 +1,64 @@
+:root {
+    --blu: #005E7D;
+    --red: #FC6D78;
+    --gry: #30394B;
+    --wht: rgb(255, 255, 255);
+}
+
+.btn {
+  background:var(--blu);
+  border:none;
+  color:white!important;
+}
+
+.btn:hover {
+  background:var(--red);
+  border:none;
+}
+
+body {
+  background: var(--wht);
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+::-moz-selection { background:none; }
+::selection { background:none;  }
+
+ @-webkit-keyframes scrollBad {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -500px;}
+  }
+  @keyframes scrollBad {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -500px;}
+  }
+
+.masthead {
+ background-color: var(--gry)!important;
+    background-image: url("../img/back.png")!important;
+    background-position: center center;
+    background-size: 500px!important;
+    
+    background-repeat: repeat!important;
+    -webkit-animation: scrollBad 15s linear infinite;
+    animation: scrollBad 15s linear infinite;
+    box-shadow: inset 0 -40px 47px rgba(3, 13, 32, 0.358)
+}
+
+.call-to-action {
+background-color: var(--gry)!important;
+    background-image: url("../img/back.png")!important;
+    background-position: center center;
+    background-size: 500px!important;
+    
+    background-repeat: repeat!important;
+    -webkit-animation: scrollBad 15s linear infinite;
+    animation: scrollBad 15s linear infinite;
+    box-shadow: inset 0 40px 47px rgba(3, 13, 32, 0.358)
+
+}
+
+a, .text-primary {
+    color: var(--blu)!important;
+}
+
