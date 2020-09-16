@@ -35,7 +35,18 @@ body {
 
 
 header.masthead {
-    background:none;}
+    background:none;
+ background-color: var(--gry)!important;
+    background-image: url("../img/back.png")!important;
+    background-position: center center;
+    background-size: 500px!important;
+    
+    background-repeat: repeat!important;
+    -webkit-animation: scrollBad 15s linear infinite!important;
+    animation: scrollBad 15s linear infinite!important;
+    box-shadow: inset 0 -40px 47px rgba(3, 13, 32, 0.358)!important;
+
+}
 
 
 .masthead {    
