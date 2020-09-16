@@ -33,7 +33,7 @@ body {
     100% {background-position: 0 -500px;}
   }
 
-.masthead {
+header.masthead {
     background: url("../img/back.png") repeat center center!important;
  background-color: var(--gry)!important;
     background-image: url("../img/back.png")!important;
