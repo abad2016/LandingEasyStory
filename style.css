@@ -33,8 +33,12 @@ body {
     100% {background-position: 0 -500px;}
   }
 
+
 header.masthead {
-    background: url("../img/back.png") repeat center center!important;
+    background:none;}
+
+
+.masthead {    
  background-color: var(--gry)!important;
     background-image: url("../img/back.png")!important;
     background-position: center center;
