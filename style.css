@@ -34,7 +34,8 @@ body {
   }
 
 .masthead {
- background: var(--gry)!important;
+    background: url("../img/back.png") repeat center center!important;
+ background-color: var(--gry)!important;
     background-image: url("../img/back.png")!important;
     background-position: center center;
     background-size: 500px!important;
